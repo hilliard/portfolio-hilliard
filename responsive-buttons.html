@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Buttons</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Define CSS Variables for consistency and easy modification */
+        :root {
+            --clr-accent: #6C63FF; /* Example accent color (purple) */
+            --clr-dark: #232946;   /* Example dark color */
+            --fw-bold: 700;        /* Example font-weight for bold */
+            --ff-inter: 'Inter', sans-serif; /* Inter font family */
+        }
+
+        body {
+            font-family: var(--ff-inter); /* Apply Inter font to the body */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0; /* Light grey background */
+        }
+
+       
+       
+
+        
+.button-container {
+  display: flex;
+  flex-direction: column;
+  width: 30%; /* Or a specific width */
+}
+      
+
+        /* Styles for the individual buttons */
+        .btn {
+            display: flex; /* Essential for padding and sizing */
+            flex-direction: column-reverse;
+            padding: .8em 2.5em; /* Increased padding for better touch target */
+            background: var(--clr-accent);
+            color: var(--clr-dark);
+            text-decoration: none;
+            cursor: pointer;
+            font-size: 1rem; /* Slightly larger font for readability */
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: var(--fw-bold);
+            transition: transform 200ms ease-in-out, background-color 200ms ease-in-out; /* Add transition for background */
+            border-radius: 9999px; /* Pill-shaped rounded corners */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Button specific shadow */
+        }
+
+        /* Hover effect for buttons */
+        .btn:hover {
+            transform: scale(1.05); /* Slightly enlarge button on hover */
+            background-color: color-mix(in srgb, var(--clr-accent) 90%, #000000); /* Slightly darker on hover */
+        }
+
+    
+
+            .btn {
+                width: 6ch; /* Make buttons take up more width when stacked */
+                text-align: center; /* Center text within buttons when stacked */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="button-container">
+        <!-- My Work Button -->
+        <a href="#work" class="btn">My Work</a>
+
+        <!-- My Play Button (Duplicate of My Work) -->
+        <a href="#play" class="btn">My Play</a>
+    </div>
+</body>
+</html>
