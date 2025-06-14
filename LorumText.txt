@@ -49,3 +49,25 @@ Specialist instills a meticulous attention to detail and a
 relentless pursuit of perfection, ensuring that every product 
 or solution we create is not only innovative and functional
 but also robust, reliable, and valuable
+
+Index.html portfolio items
+
+  <!-- Portfolio item 07 -->
+                <a href="rebit-item.html" class="portfolio__item">
+                    <img src="img/Rebit-cloud-storage-480.jpg" alt="logo" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 08 -->
+                <a href="rebit-item.html" class="portfolio__item">
+                    <img src="img/Rebit-laptop-storage-480.jpg" alt="logo" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 09 -->
+                <a href="benchmark-item.html" class="portfolio__item">
+                    <img src="img/DLT-Library-480.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 10-->
+                <a href="benchmark-item.html" class="portfolio__item">
+                    <img src="img/Storage-DLT-Tape-Drive-480.jpg" alt="" class="portfolio__img">
+                </a>
