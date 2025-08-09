@@ -13,7 +13,7 @@
     --fw-reg: 300;
     --fw-bold: 900;
     
-   /*  --clr-light: #fff; --clr-dark: #303030; --clr-accent: #16e0bd; */
+    /* --clr-light: #fff; --clr-dark: #303030; --clr-accent: #16e0bd; */
 
     --clr-light: #fff;
     --clr-dark: #303030;
@@ -39,10 +39,9 @@
 
 /* General styles */
 
-/* endable this to add smooth scrolling */
-/* html {
-    scroll-behavior: smooth;
-} */
+html {
+   scroll-behavior: smooth;
+}
 
 
 body {
@@ -214,11 +213,6 @@ header {
     opacity: 0;
 }
 
-
-
-
-
-
 .hamburger {
     display: block;
     position: relative;
@@ -247,7 +241,7 @@ header {
 .hamburger::after { bottom: 6px; }
 
 
-/*  Intro section  */
+/* Intro section  */
 
 .intro {
     position: relative;
@@ -293,7 +287,7 @@ header {
 
 
 
-/*  My services section  */
+/* My services section  */
 
 .my-services {
     background-color: var(--clr-dark);
@@ -393,7 +387,9 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 2fr));
+    /* Changed minmax to a smaller value to prevent overflow on mobile */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 0.25em));
+   /* gap: 1em;  Added a gap for spacing between items */
 }
 
 .portfolio__item {
@@ -478,8 +474,4 @@ header {
     margin-left: auto;
     margin-right: auto;
 }
-/*
-* {
-  outline: 1px solid red;
-}
-*/
+
