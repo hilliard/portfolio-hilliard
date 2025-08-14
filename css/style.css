@@ -25,7 +25,7 @@
     --fs-body: 1rem;
     
     --bs: 0.25em 0.25em 0.75em rgba(0,0,0,.25),
-          0.125em 0.125em 0.25em rgba(0,0,0,.15);
+        0.125em 0.125em 0.25em rgba(0,0,0,.15);
 }
 
 @media (min-width: 800px) {
@@ -97,6 +97,7 @@ h2,
 h3 {
     line-height: 1;
     margin: 0;
+    margin-bottom: 20px;
 }
 
 h1 { font-size: var(--fs-h1) }
@@ -119,6 +120,7 @@ h3 { font-size: var(--fs-h3) }
 .section__subtitle {
     margin: 0;
     font-size: var(--fs-h3);
+    
 }
 
 .section__subtitle--intro,
@@ -469,14 +471,21 @@ header {
 
 .portfolio-item-individual {
     padding: 0 2em 2em;
-    max-width: 600px;
+    max-width: 1000px;
     margin: 0 auto;
+
+    
 }
 
+
+
+
+
 .portfolio-item-individual p {
-    max-width: 480px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1.5em;
 }
 /*
 * {

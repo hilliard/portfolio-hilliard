@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Updated Font Awesome to a newer version that includes the X icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="container mx-auto px-4 py-12 md:py-20">
+        <div class="max-w-4xl mx-auto bg-white rounded-2xl shadow-2xl overflow-hidden">
+            <div class="md:grid md:grid-cols-2">
+                <!-- Contact Form Section -->
+                <div class="p-8 md:p-12">
+                    <h2 class="text-3xl font-bold text-gray-900 mb-2">Get in Touch</h2>
+                    <p class="text-gray-600 mb-8">I'm here to help and answer any question you might have.</p>
+                    
+                    <!-- Updated form tag to open email client -->
+                    <form action="mailto:hilliards@gmail.com" method="post" enctype="text/plain" onsubmit="setTimeout(() => this.reset(), 500)"></form>
+                    <!-- <form action="mailto:hilliards@gmail.com" method="post" enctype="text/plain"> -->
+                        <div class="space-y-6">
+                            <div>
+                                <label for="name" class="text-sm font-medium text-gray-700">Full Name</label>
+                                <input type="text" name="name" id="name" placeholder="Pat Awesome" class="mt-1 block w-full bg-gray-50 border border-gray-300 rounded-lg shadow-sm py-3 px-4 text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                            </div>
+                            <div>
+                                <label for="email" class="text-sm font-medium text-gray-700">Email Address</label>
+                                <input type="email" name="email" id="email" placeholder="pat.awesome@example.com" class="mt-1 block w-full bg-gray-50 border border-gray-300 rounded-lg shadow-sm py-3 px-4 text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition">
+                            </div>
+                            <div>
+                                <label for="message" class="text-sm font-medium text-gray-700">Message</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Your message..." class="mt-1 block w-full bg-gray-50 border border-gray-300 rounded-lg shadow-sm py-3 px-4 text-gray-900 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition"></textarea>
+                            </div>
+                            <div>
+                                <button type="submit" class="w-full flex justify-center py-3 px-4 border border-transparent rounded-lg shadow-lg text-white font-bold bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition-transform transform hover:scale-105">
+                                    Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Contact Info Section -->
+                <div class="bg-blue-600 text-white p-8 md:p-12">
+                    <h2 class="text-3xl font-bold mb-8">Contact Information</h2>
+                    <div class="space-y-6">
+                        <div class="flex items-start space-x-4">
+                            <i class="fas fa-map-marker-alt fa-lg mt-1 text-blue-200"></i>
+                            <div>
+                                <h3 class="font-bold">Address</h3>
+                                <p class="text-blue-100">10760 Grove Street<br>Westminster, CO 80031<br>United States</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <i class="fas fa-envelope fa-lg mt-1 text-blue-200"></i>
+                            <div>
+                                <h3 class="font-bold">Email</h3>
+                                <a href="mailto:hilliards@gmail.com" class="text-blue-100 hover:text-white hover:underline">hilliards@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-4">
+                            <i class="fas fa-phone fa-lg mt-1 text-blue-200"></i>
+                            <div>
+                                <h3 class="font-bold">Phone</h3>
+                                <p class="text-blue-100">(720) 244-8559</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Social Media Links -->
+                    <div class="mt-12">
+                        <h3 class="font-bold mb-4">Follow Me</h3>
+                        <div class="flex space-x-6">
+                            <a href="#" class="text-blue-200 hover:text-white transition-transform transform hover:scale-125"><i class="fab fa-github fa-2x"></i></a>
+                            <a href="#" class="text-blue-200 hover:text-white transition-transform transform hover:scale-125"><i class="fab fa-linkedin fa-2x"></i></a>
+                            <a href="#" class="text-blue-200 hover:text-white transition-transform transform hover:scale-125"><i class="fab fa-facebook fa-2x"></i></a>
+                            <a href="#" class="text-blue-200 hover:text-white transition-transform transform hover:scale-125"><i class="fab fa-codepen fa-2x"></i></a>
+                            <!-- Replaced fa-twitter-square with fa-x-twitter -->
+                            <a href="#" class="text-blue-200 hover:text-white transition-transform transform hover:scale-125"><i class="fab fa-x-twitter fa-2x"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
