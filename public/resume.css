@@ -1,0 +1,22 @@
+ <style>
+        /* Additional styles for resume layout */
+        .resume {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2em;
+        }
+        .job {
+            margin-bottom: 2.5em;
+            border-left: 4px solid var(--clr-accent);
+            padding-left: 1.5em;
+        }
+        .job-title {
+            font-weight: var(--fw-bold);
+            color: var(--clr-dark);
+        }
+        .job-company {
+            font-family: var(--ff-secondary);
+            color: var(--clr-accent);
+            margin-bottom: 0.5em;
+        }
+    </style>
