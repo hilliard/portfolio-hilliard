@@ -1,6 +1,6 @@
 {
   "name": "portfolio-hilliard",
-  "description": "Hilliard's Portfolio Website",
+  "description": "Hilliard's Portfolio WebPage",
   "scripts": {
     "start": "vite",
     "dev": "vite",
