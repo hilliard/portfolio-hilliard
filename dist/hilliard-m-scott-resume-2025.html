@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hilliard M. Scott III - Resume</title>
+    
+    <!-- Link to your provided CSS file -->
+    <link rel="stylesheet" href="../css/style.css">
+    
+    <!-- Links for fonts and icons used in your CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha266-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" >  
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    
+    <style>
+         /* Additional styles for resume layout */
+        .resume {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2em;
+        }
+        .job {
+            margin-bottom: 2.5em;
+            border-left: 4px solid var(--clr-accent);
+            padding-left: 1.5em;
+        }
+        .job-title {
+            font-weight: var(--fw-bold);
+            color: var(--clr-dark);
+        }
+        .job-company {
+            font-family: var(--ff-secondary);
+            color: var(--clr-accent);
+            margin-bottom: 0.5em;
+        }
+    </style>
+
+    
+</head>
+<body>
+
+    <div class="resume">
+        <!-- Removed margin-bottom from header 
+        <header style="text-align: center;">
+            <h1 class="section__title">Hilliard M. Scott III</h1>
+            <img src="../img/sonny-cropped.jpg" alt="logo" />
+            <h4 class="job-company">Email: hilliards@gmail.com | Phone: 720-244-8559</h4>
+        </header> -->
+    
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h2 class="section__title section__title--intro">
+                Hilliard M. Scott III<br><br><small>Email:hscott@gmail.com</small><br><small>Phone:720-244-8559</small>
+            </h2>
+            <!--<p class="section__subtitle section__subtitle--intro">Experience</p> -->
+            <img src="../img/Me-In-Vancouver-Cartoonish-243.png" alt="Hilliard Scott in Vancouver with Pixelated Whale" class="intro__img">
+        </section>
+
+
+        <!-- Reduced top padding on the experience section -->
+        <section id="experience" style="padding-top: 1.5em;">
+        <!-- <h3>Professional Experience</h3> -->
+            <div class="job">
+                <h3>Founder & Chief Technical Advisor</h3>
+                <p class="job-company">GoldTending Inc.</p>
+                <p>GoldTending Inc, was founded aa a technology consulting firm and as an entity
+                    focused on developing a platform for aspiring young entrepreneurs.</p>
+            </div>
+
+            <div class="job">
+                <h3> Advisory Board for the Strategic Artificial
+                Intelligence Program at the University of Colorado Colorado Springs</h3>
+                <p class="job-company">UCCS</p>
+                <h4>Board members make a number of contributions to the program, including:</h4>
+                <p>Preserving and enhancing the reputation and quality of the program through strategic
+                review of our credit and noncredit offerings to the community, as well as helping to build our
+                value to the business community.</p>
+                
+                <p>Offering expert guidance to our faculty and students through occasional classroom visits,
+                forums and conferences, and input on our programs.
+                
+                <p>Promoting the program’s goal of linking industry with academia to help ensure that our work
+                is relevant and benefits the business community.</p>
+
+                <p><strong>Technologies: </strong> Javascript, NextJS, Firebase, Supabase, OpenAI, Node.js, React, TypeScript, Vue.js</p>
+                <p><strong>Tools: </strong> ViTest, Jasmin, Anthropic, Netlify, Cloudflare, Anthropic, Tailwind CSS, Git, GitHub</p>
+            </div>
+            
+            <div class="job">
+                <h3>Senior Quality Assurance Engineer</h3>
+                <p class="job-company">Trimble / SketchUp</p>
+                <p>Played a critical role in delivering high-quality software products for designers and architects worldwide. I was responsible for designing, developing, and executing comprehensive test plans, identifying defects, and collaborating with development teams. My expertise contributed to improving testing processes and ensuring the robustness of SketchUp's 3D modeling API.</p>
+                <p><strong>Technologies: </strong> Ruby, C++, Javascript, Node.js</p>
+                <p><strong>Tools: </strong> Atlassian Suite, Visual Studio, RubyMine, Cypress, Sauce Labs, Git, GitHub, Postman, Minitest, Doxygen</p>
+                <p><strong>Additional Roles:</strong> Agile Scrum Master, Team Lead</p>
+            </div>
+
+            <div class="job">
+                <h3>Senior Engineer</h3>
+                <p class="job-company">ClickBank</p>
+                <p>As a key member of the  team, I was instrumental in automating and streamlining the software development lifecycle. I designed and implemented CI/CD pipelines, managed cloud infrastructure, and ensured the reliability and scalability of our affiliate marketing platform, enabling rapid and dependable software delivery.</p>
+                <p><strong>Technologies: </strong> Ruby, Cucumber, Nutch, Apache Tomcat, AWS, Java, Liquibase, Docker, Doxygen, Zeus/Azul</p>
+                <p><strong>Tools: </strong> Atlassian Suite, InjelliJ, RubyMine, NetNeans, Cypress, Sauce Labs, Swagger, Postman, Git, GitHub, BitBucket </p>
+                <p><strong>Additional Roles:</strong> Agile Scrum Master, Team Lead, Buildmeister</p>
+            </div>
+
+            <div class="job">
+                <h3>Co-Founder & Director of IT</h3>
+                <p class="job-company">Rebit Inc.</p>
+                <p>Co-founded Rebit and was part of the engineering team that created a groundbreaking, simple, and automatic backup solution for consumers. We developed a "ridiculously simple" backup appliance that required no user intervention, fundamentally changing the landscape of personal data protection.</p>
+                <p><strong>Technologies: </strong> Ruby, Cucumber,  C++, Delphi, PostgreSQL, Access, Oracle, MSSQL, Oracle Business 1</p>
+                <p><strong>Tools: </strong> Atlassian Suite, Cypress, Sauce Labs, Postman, MercurialHG </p>
+                <p><strong>Additional Roles:</strong> Agile Scrum Master, Team Lead, Software Configuration Manager</p>
+                <p><strong>Exit: </strong> Rebit was acquired by Betsol / Carbonite for 25 Million</p>
+            </div>
+
+            <div class="job">
+                <h3>Database Consultant / System Architect</h3>
+                <p class="job-company">World Bank Internatioanl, Nile Basin DSS.</p>
+                <p> The Nile Basin Decision Support System (NB-DSS) is a platform
+                    developed by the Nile Basin Initiative (NBI) to facilitate 
+                    cooperative planning and management of the Nile River's water
+                    resources by providing data, analytical tools, and modeling 
+                    capabilities for Integrated Water Resources Management (IWRM). 
+                    It serves as a central repository for data and offers advanced
+                    tools for s cenario management, optimization, and multi-criteria
+                    decision-making, aiming to support riparian countries in 
+                    reaching consensus on sustainable water resource development 
+                    projects.</p>
+
+                <p>I Engineered and executed the migration of a core system
+                    to a PostgreSQL and Ubuntu Linux environment. This 
+                    strategic shift away from proprietary Microsoft and 
+                    Oracle solutions created a sustainable, self-supporting
+                    infrastructure while achieving substantial reductions
+                    in operational licensing costs. </p>
+
+                <p><strong>Technologies:</strong> MS Server, MSSQL, Unix, C++, .Net, Postgres, Ubuntu Linux, Access</p>
+                <p><strong>Tools:</strong> SpiraTest Suite, Visual Studio, Visual Studio Code, MercurialHG, Windows Hardware Lab Kit (HLK), SignTool, WHQL (Windows Hardware Quality Labs)</p>
+            </div>
+
+            <div class="job">
+                <h3>CConsultant / System Architect  </h3>
+                <p class="job-company">TC-Solutions</p>
+                <p>Converted IT infrastructure from physical on premises to 
+                    Online AWS. Designed and built Initial front-end website.</p>
+                <p><strong>Technologies: </strong> MS Server, MSSQL, Access, AWS</p>
+                <p><strong>Tools: </strong> TWordpress, Visual Studio, Visual Studio Code, Git</p>
+            </div>
+            
+            <div class="job">
+                <h3>Co-Founder & Director of Quality </h3>
+                <p class="job-company">Benchmark Tape Systems</p>
+                <p>Co-founded the company and spearheaded the engineering efforts to develop the DLT1 tape drive, a high-capacity data storage solution. My participation was crucial in taking the product from concept to market, establishing a new standard for reliable and efficient data backup for businesses.</p>
+                <p><strong>Technologies: </strong> MS Server, MSSQL, PostgreSQL, OBDR, Unix, Linux,C++, .Net</p>
+                <p><strong>Tools: </strong> TrackStar, Visual Studio, TortoiseSVN, Windows Hardware Lab Kit (HLK), SignTool, WHQL (Windows Hardware Quality Labs)</p>
+                <p><strong>Additional Roles:</strong> Agile Scrum Master, Director IT, Software Configuration Manager</p>
+                <p><strong>Exit: </strong> Quantum acquired Benchmark in 2002 for $56 million.</p>
+            </div>
+
+            <div class="job">
+                <h3>Co-Founder & Director of IT</h3>
+                <p class="job-company">Datasonix Inc.</p>
+                <p>As a co-founder, I was part of the engineering team that created Pereos, the world's smallest and lightest tape drive. This portable data storage device was a technological marvel, offering unprecedented data mobility and backup capabilities for the time.</p>
+                <p><strong>Technologies:</strong> MS Server, MSSQL, OBDR (One Button Disaster Recovery), Unix, C++, .Net</p>
+                <p><strong>Tools:</strong> TrackStar, Visual Studio, Windows Hardware Lab Kit (HLK),  TortoiseSVN, SignTool, WHQL (Windows Hardware Quality Labs)</p>
+                <p><strong>Additional Roles:</strong>Team Lead, Software Configuration Manager, Buildmeister</p>
+                <p><strong>Award: </strong>Patent Number 5,960,460 for Non-Intrusive Replication of Hard Disk – a disaster recovery / data replication computer program</p>
+                <p><strong>Exit:</strong> Datasonix was acquired by Exabyte for $20 million.</p>   
+            </div>
+            
+            <div class="job">
+                <h3>Senior Software/Firmware Engineer</h3>
+                <p class="job-company">StorageTek</p>
+                <p>Contributed to the development of cutting-edge storage systems, including the innovative Iceberg, a totally redundant, fault tolerant disk system. My work in tools and software engineering was vital to the functionality and reliability of these large-scale data storage solutions, which were used by major corporations worldwide.</p>
+                <p><strong>Technologies:</strong> MS Server, MSSQL, LSTC2VM, HPuX, Unix, Linux C++, ASP, ASP.NET, PHP, C#, Perl and VBScript</p>  
+                <p><strong>Tools: </strong> TrackStar, Visual Studio, Atria, SourceSafe, Windows Hardware Lab Kit (HLK), SignTool, WHQL (Windows Hardware Quality Labs)</p>
+                <p><strong>Additional Roles:</strong> Agile Scrum Master, Team Lead</p>
+                <p><strong>Awards: </strong> Technical Innovator of The Year. Malcom Baldridge Quality Award</p>
+                <p><strong>Exit: </strong>Sun Microsystems acquired Storage Technology Corporation (StorageTek) in August 2005 for US$4.1 billion.</p>
+                <p>StorageTek, founded in 1969, was a global company that developed and manufactured data storage hardware and software.</p>
+            </div>
+
+            <div class="job">
+                <h3>Aerospace Power Design Engineer</h3>
+                <p class="job-company">Technetics Inc.</p>
+                <p>Designed and built mission-critical power supplies for the nation's most advanced defense and aerospace platforms. My projects included developing power systems for the Space Shuttle (NASA), nuclear submarines (U.S. Navy), and Black Ops helicopters (U.S. Air Force), all requiring the highest levels of precision and reliability.</p>
+                <p><strong>Skills:</strong>
+
+                <ul>
+                    <li>Experienced in designing radiation-hardened power systems for space applications.</li>
+                    <li>Familiarity with power requirements for secure communications and sensitive electronic equipment.</li>
+                    <li>Proven ability to mentor junior engineers and lead technical projects.</li>
+                </ul>
+                
+                <p><strong>Technologies: </strong> C, C++, i386 Assenbly, MIL-STD-1495</p>
+                <p><strong>Tools: </strong> Aztek Compiler, AT&T Compiler </p>
+                <p><strong>Additional Roles:</strong> NASA Qualified Assembler,  Quality Control</p>
+            </div>
+
+            <div class="job">
+                <h3>Site Engineer/Program Director</h3>
+                <p class="job-company">KGNU 88.5 FM Boulder</p>
+                <p>At KGNU Community Radio I was able to fill the unique, combined role of Site Engineer & Program Director.
+                In this leadership position responsible for both the technical integrity of our broadcast signal and
+                the creative vision of the on-air programming.</p>
+                <p><strong>FCC License:</strong> KA0JHK </p>
+                <p><strong>Engineering Responsibilities:</strong>
+            
+                    <ul>
+                        <li>Maintain Broadcast Systems: Oversee the maintenance, repair, and installation of all broadcast equipment, including studio consoles, microphones, transmitters, antennas, and remote broadcast gear.</li>
+                        <li>Ensure FCC Compliance: Serve as the station's Chief Operator, ensuring full compliance with all FCC technical regulations, maintaining station logs, and performing required EAS tests.</li>
+                        <li>Manage IT Infrastructure: Supervise the health and performance of station computers, servers, networking equipment, and the audio automation system.</li>
+                        <li>Troubleshoot & Repair: Provide timely and effective troubleshooting for any technical issues that arise, minimizing off-air time and resolving equipment failures.</li>
+                        <li>Strategic Technical Planning: Research, propose, and implement technology upgrades to improve broadcast quality and station capabilities.</li>
+                    </ul>
+
+                    <p><strong>Programming Responsibilities:</strong>
+                    <ul>
+                        <li>Program Curation & Scheduling: Develop, manage, and oversee the weekly on-air program schedule, ensuring a diverse and engaging mix of music, news, and public affairs programming.</li>
+                        <li>Volunteer Management: Recruit, train, and provide ongoing support and mentorship to KGNU’s large and diverse team of volunteer programmers.</li>
+                        <li>Content & Mission Alignment: Ensure all on-air content reflects KGNU’s core mission of diversity, inclusiveness, and providing a platform for overlooked perspectives.</li>
+                        <li>Quality Control: Monitor on-air sound and programming to ensure a high standard of quality and professionalism.</li>
+                        <li>Community Engagement: Act as a liaison between the station and the community, actively seeking out new programming ideas and talent that reflect the diversity of our listenership.</li>
+                    </ul>
+
+            </div>    
+        </section>
+
+        <section id="education" style="padding-top: 1.5em;">     
+            <div>   
+                <h3 class="job-title">Education</h3>
+                <div class="job">
+                    <h3>University of Colorado,    Colorado Springs</h3>
+                    <p class="job-company">Strategic Artificial Intelligence Program.</p>
+                </div>
+                    
+                <div class="job">
+                    <h3> University of Denver,	Denver, CO </h3>
+                    <p class="job-company">Daniels Professional Development Program.</p>
+                </div>
+
+                <div class="job">
+                    <h3>Berklee College of Music,	Boston, MA</h3>
+                    <p class="job-company">Music Production.</p>
+                </div>
+                
+                <div class="job">
+                    <h3>University of Colorado,	  Boulder, CO</h3>
+                    <p class="job-company">Leeds School of Business Management.</p>
+                </div>
+                
+                <div class="job">
+                    <h3>Regis University Denver, CO</h3>
+                    <p class="job-company">Management Information Systems/Business Minor.</p>
+                </div>
+            
+                <div class="job">
+                    <h3>University of Colorado,	   Boulder, CO </h3>
+                    <p class="job-company">Electrical Engineering Studies.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="coaching" style="padding-top: 1.5em;">
+            <div>   
+                <h3 class="job-title">Coaching</h3>
+                <div class="job">
+                    <h3>University of Colorado,    </h3>
+                    <p class="job-company">Assistant Coach/Goalie Coach - CU Women's Team - NCAA Nationals </p>
+                </div>
+                    
+                <div class="job">
+                    <h3> Golden High School,	Golden, CO </h3>
+                    <p class="job-company">Assistant/Goalie Coach - Varsity - State Chanpion.</p>
+                </div>
+
+                <div class="job">
+                    <h3>Hyland Hills,	Westminster, CO</h3>
+                    <p class="job-company">Major A - International Silver Stick Champion.</p>
+                </div>
+                
+                <div class="job">
+                    <h3>Hyland Hills,	Westminster, CO</h3>
+                    <p class="job-company">Assistant/Goalie Coach - Bantam B - State Champion.</p>
+                </div>
+
+                <div class="job">
+                    <h3>Hyland Hills,	Westminster, CO</h3>
+                    <p class="job-company">Assistant/Goalie Coach - Minor A - State Champion.</p>
+                </div>
+                
+                <div class="job">
+                    <h3>Boulder Hockey Club,  Boulder, CO</h3>
+                    <p class="job-company">Head Coach Major A</p>
+                </div>
+            
+                <div class="job">
+                    <h3>Fairview High School,	   Boulder, CO </h3>
+                    <p class="job-company">Head Coach - Varsity</p>
+                </div>
+
+                <div class="job">
+                    <h3>Thundercats Volleyball,	   Thorton, CO </h3>
+                    <p class="job-company">Video Coach - AAU - Ranked 7th in the Nation</p>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+        <!-- Footer -->
+        <footer class="footer ">
+
+            <a href="mailto:hilliards@gmail.com" class="footer__link">hilliards@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://linkedin.com">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://facebook.com">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://twitter.com">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                </li>
+            </ul>
+            <div>
+                <a href="../contact-form.html" class="footer__link">Contact</a>
+            </div>
+        </footer>
+
+</body>
+</html>
