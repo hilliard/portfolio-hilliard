@@ -1,5 +1,7 @@
 {
   "name": "portfolio-hilliard",
+  "version": "0.0.1",
+  "author": "Hilliard",
   "description": "Hilliard's Portfolio WebPage",
   "scripts": {
     "start": "vite",
@@ -8,7 +10,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vite": "latest"
-  },
-  "devDependencies": {}
+    "vite": "^7.2.7"
+  }
 }
