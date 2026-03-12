@@ -1,0 +1,51 @@
+Create an html page for each .jpg file in the Certificates/images directory
+
+Exclude 'Build Developer Portfolio-certificate.jpg', 'Build Multipage Web App-certificate.jpg'
+because I have already created their associated {name}-desc.html file 
+
+Use 'build-dev-portfolio-desc.html' and 'build-multipage-portfolio-desc.html' as templates/examples for the file you will create
+
+For the initial run use the filename up to to '-certificate.jpg' as the basis for each '-desc.html' file you create
+
+### Example  ( I don't like spaces in filenames so replace spaces with '-' and lowercase the capital letters
+jpg filename:                 'Build React Project Build A Movie Search Project-certificate.jpg'
+proposed -desc.html filename: 'build-react-project-build-a-movie-search-project-desc.html'
+###
+
+Include all beginning html sections, lang, head, body, header, section, elements, divs, etc.
+
+The 'deterministic' part of each of these {filename}-desc.html files begins after 
+ <div class="portfolio-item-individual">
+ 
+   
+ <div>
+
+section
+
+if you want to you can just create: 
+ an image src tag: (general image, an almost 'logo' type image, 
+  ### <img src="img/{filename}.jpg" alt="some text">
+ two paragraph tags: 
+  ### <p></p>
+  ### <p></p>
+ an unordered list with 10 'li' elements
+  ###  <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+			  <li></li>
+           </ul> 
+		   
+Then include the 
+ <footer>
+ <script>
+ <body>
+ <html>
+ 
+ elements to complete the page

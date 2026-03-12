@@ -487,6 +487,46 @@ header {
     margin-right: auto;
     margin-bottom: 1.5em;
 }
+
+/* =========================================
+   Certifications Grid
+   ========================================= */
+
+.certs-grid {
+    display: grid;
+    /* Auto-fits columns, ensuring certificates never shrink below 350px wide */
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem; 
+    max-width: 1000px; /* Matches your other section max-widths */
+    margin: 0 auto; /* Centers the grid container */
+    padding: 0 2em; /* Keeps it off the edges on mobile */
+}
+
+.certs-item {
+    background: #fff; 
+    border-radius: 6px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); 
+    transition: transform 250ms ease, box-shadow 250ms ease;
+    /* Change this from 'flex' to 'block' so it doesn't artificially stretch */
+    display: block; 
+}
+
+.certs-img {
+    width: 100%;
+    height: auto;
+    /* Remove object-fit: cover entirely */
+    display: block;
+}
+
+/* Hover Effect specific to certificates */
+.certs-item:hover,
+.certs-item:focus {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    z-index: 2;
+    outline: none; /* Replaces default focus with the shadow effect */
+}
 /*
 * {
   outline: 1px solid red;
