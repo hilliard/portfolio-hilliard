@@ -407,6 +407,9 @@ header {
     transition: 
         transform 750ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
 }
 
 .portfolio__item:focus {
